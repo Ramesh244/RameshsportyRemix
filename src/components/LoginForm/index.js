@@ -81,7 +81,7 @@ class LoginForm extends Component {
   getRedirectURL = () => {
     if (this.isDevelopmentEnvironment()) {
       /* ADD THIS URL to your Application Redirect URIs to redirect after authentication success OR failure */
-      return 'http://localhost:3002/login'
+      return 'http://localhost:44921'
     }
     /* Change this redirectURL accordingly before publishing your project and ADD THIS URL to your Application Redirect URIs to redirect after authentication success OR failure */
     return 'https://RameshSportyRemix.ccbp.tech/login'
